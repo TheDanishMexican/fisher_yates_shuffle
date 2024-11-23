@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Fisher-Yates Shuffle Visualization</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div id="app">
+            <h1>Fisher Yates Shuffling Algorithm Visualized</h1>
+            <h2>All cards</h2>
+            <div id="cards-start">
+                <div id="cards"></div>
+                <div id="cards-shuffled"></div>
+            </div>
+            <h2>Remaining cards to shuffle from</h2>
+            <div id="cards-remaining"></div>
+            <button id="shuffle-button">Shuffle</button>
+            <div id="counter">
+                Shuffle Counter: <span id="counter-value">0</span>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
